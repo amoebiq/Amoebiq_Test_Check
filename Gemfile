@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use mysql as the database for Active Record
-gem 'mysql2'
+gem 'pg', '~> 0.18.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -59,4 +59,5 @@ group :production do
 
   gem 'bootstrap-sass',       '3.2.0.0'
   gem 'bcrypt', '~> 3.1.10'
+
 end
